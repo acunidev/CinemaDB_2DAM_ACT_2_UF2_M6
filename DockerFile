@@ -7,7 +7,7 @@ ENV MYSQL_DATABASE cinema_db
 
 # Add initCinemaDB.sql database to /docker-entrypoint-initdb.d/
 # The official mysql docker image will run .sql scripts found in the /docker-entrypoint-initdb.d/ folder.
-ADD /MySQL_Data/initCinemaDB.sql /docker-entrypoint-initdb.d
+ADD /initCinemaDB.sql /docker-entrypoint-initdb.d
 
 # Exposes the port 3306 of the docker to the host
 EXPOSE 3306
