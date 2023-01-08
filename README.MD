@@ -8,6 +8,7 @@
 > pel meu compte com el “DAO Pattern” i el CRUD, ja que a primer vam fer una activitat semblant, però ara fer-ho amb una
 > mica més d'idea del que faig jaja.
 
+---
 > **[1 punt]** Quines instruccions heu utilitzat per crear la BBDD, cada entitat i els camps de cada entitat? Poseu tot
 > seguit
 > aquí les instruccions tal qual les heu codificat al fitxer .sql.
