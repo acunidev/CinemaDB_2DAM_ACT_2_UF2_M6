@@ -82,7 +82,7 @@ public class FilmDaoImplementation implements CinemaDao<Film, Integer> {
           final String country = rs.getString(COUNTRY);
           final int directorId = rs.getInt(DIRECTOR_ID);
           final int year = rs.getInt("year");
-          System.out.printf("%-25s=>%5s%n".replace(' ', '='), title, year);
+          System.out.printf("%-25s=>%5s%n", title, year);
           films.add(new Film(filmId, title, releaseDate, country, directorId));
         }
         System.out.println();
